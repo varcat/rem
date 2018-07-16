@@ -1,4 +1,4 @@
-import {curry} from '../essential/curry';
+import {curry} from '../essential/index.js';
 
 export const trace = curry((tag, x) => {
   console.log(tag, x);

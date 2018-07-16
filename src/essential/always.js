@@ -1,3 +1,3 @@
-import {curry} from './essential';
+import {curry} from './curry.js';
 
 export const always = curry((a, _) => a);

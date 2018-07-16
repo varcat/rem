@@ -3,7 +3,7 @@ export function curry(fn) {
 
   return function $curry(...args) {
     if (args.length < arity) {
-      return $curry.apply(null, args);
+      return $curry.bind(null, ...args);
     }
 
     return fn.apply(null, args);
