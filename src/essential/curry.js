@@ -1,4 +1,4 @@
-export function curry(fn) {
+function curry(fn) {
   const arity = fn.length;
 
   return function $curry(...args) {
@@ -9,3 +9,7 @@ export function curry(fn) {
     return fn.apply(null, args);
   };
 }
+
+module.exports = {
+  curry,
+};
