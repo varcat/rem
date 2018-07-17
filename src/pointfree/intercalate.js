@@ -1,7 +1,7 @@
 const {curry} = require('../essential/curry.js');
 
-const concat = curry((a, b) => a.concat(b));
+const intercalate = curry((str, xs) => xs.join(str));
 
 module.exports = {
-  concat,
+  intercalate,
 };

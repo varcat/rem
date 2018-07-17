@@ -1,7 +1,7 @@
 const {curry} = require('../essential/curry.js');
 
-const concat = curry((a, b) => a.concat(b));
+const eq = curry((a, b) => a === b);
 
 module.exports = {
-  concat,
+  eq,
 };

@@ -1,6 +1,10 @@
-const {curry} = require('../essential');
+const {curry} = require('../essential/curry.js');
 
-export const trace = curry((tag, x) => {
+const trace = curry((tag, x) => {
   console.log(tag, x);
   return x;
 });
+
+module.exports = {
+  trace,
+};

@@ -2,25 +2,31 @@
   "name": "@varcat/rem",
   "version": "0.0.1",
   "description": "A practical functional library for JavaScript programmers.",
-  "main": "./dist/index.js",
+  "main": "./src/index.js",
   "directories": {
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/varcat/rem.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "varcat",
+    "email": "varshunping@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/varcat/rem/issues"
   },
   "homepage": "https://github.com/varcat/rem#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/jest": "^23.3.0",
+    "jest": "^23.4.1"
+  },
   "browserslist": [
     "chrome >= 66"
   ]

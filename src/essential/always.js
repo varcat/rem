@@ -1,3 +1,5 @@
-const {curry} = require('./curry');
-
-export const always = curry((a, _) => a);
+const {curry} = require('./curry.js');
+const always = curry((a, _) => a);
+module.exports = {
+  always,
+};
