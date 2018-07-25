@@ -2,4 +2,4 @@
 .gitignore
 .cache
 node_modules
-demo
+demo/

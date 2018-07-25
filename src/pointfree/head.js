@@ -1,5 +1,5 @@
-const head = (xs) => xs[0];
+const head = xs => xs[0];
 
 module.exports = {
-  head,
+    head,
 };
