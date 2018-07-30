@@ -7,6 +7,7 @@ const {curry} = require('./essential/curry.js');
 const {identity} = require('./essential/identity.js');
 const {inspect} = require('./essential/inspect.js');
 const {pipe} = require('./essential/pipe.js');
+const {maybe} = require('./essential/maybe.js');
 
 const {add} = require('./pointfree/add.js');
 const {concat} = require('./pointfree/concat.js');
@@ -34,7 +35,7 @@ const {split} = require('./pointfree/split.js');
 const {slice} = require('./pointfree/slice.js');
 const {take} = require('./pointfree/take.js');
 
-const {MayBe} = require('./structures/MayBe.js');
+const {MayBe} = require('./structures/Maybe.js');
 
 module.exports = {
     trace,
@@ -71,4 +72,5 @@ module.exports = {
     getType,
     inspect,
     MayBe,
+    maybe,
 };

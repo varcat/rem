@@ -7,7 +7,7 @@
     "example": "example"
   },
   "scripts": {
-    "start": "parcel ./demo/**/*.html -d ./demo/build",
+    "start": "parcel ./demo/index.html -d ./demo/build --open",
     "test": "jest"
   },
   "repository": {

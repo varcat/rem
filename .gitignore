@@ -1,5 +1,4 @@
 .idea
-.gitignore
 .cache
 node_modules
 demo/

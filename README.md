@@ -1,2 +1,43 @@
 # rem
-A practical functional library for JavaScript programmers.
+JavaScript程序员的实用函数库。
+
+## 目录
+
+* 基本函数
+    * always
+    * compose
+    * curry
+    * identity
+    * maybe
+    * pipe
+* Pointfree
+    * add
+    * concat
+    * eq
+    * filter
+    * flip
+    * forEach
+    * head
+    * includes
+    * intercalate
+    * last
+    * map
+    * match
+    * prop
+    * reduce
+    * replace
+    * reverse
+    * safeHead
+    * slice
+    * sort
+    * sortBy
+    * split
+    * take
+    * toLowerCase
+    * toString
+    * toUpperCase
+* 结构体
+    * Maybe
+* 调试函数
+    * getType
+    * trace

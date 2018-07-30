@@ -1,12 +1,12 @@
 const {inspect} = require('../essential/inspect.js');
 
-class MayBe {
+class Maybe {
   constructor(x) {
     this.$value = x;
   }
 
   static of(x) {
-    return new MayBe(x);
+    return new Maybe(x);
   }
 
   get isNothing() {
@@ -14,7 +14,7 @@ class MayBe {
   }
 
   map(fn) {
-    return this.isNothing ? this : MayBe.of(fn(this.$value));
+    return this.isNothing ? this : Maybe.of(fn(this.$value));
   }
 
   inspect() {
@@ -23,5 +23,5 @@ class MayBe {
 }
 
 module.exports = {
-  MayBe,
+  MayBe: Maybe,
 };
